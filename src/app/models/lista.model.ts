@@ -17,6 +17,4 @@ export	class Lista {
 
 		this.id = new Date().getTime();
 	}
-
-
 }

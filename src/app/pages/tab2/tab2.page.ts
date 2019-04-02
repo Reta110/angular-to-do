@@ -9,6 +9,6 @@ import { DeseosService } from '../../services/deseos.service';
 export class Tab2Page {
 
 	constructor(public deseosService:DeseosService){
-
+		console.log('servicio listo 2');
 	}
 }
