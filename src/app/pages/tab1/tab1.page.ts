@@ -1,6 +1,5 @@
 import { Component } from '@angular/core'
 import { DeseosService } from '../../services/deseos.service';
-import { Lista } from '../../models/lista.model';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 
@@ -10,8 +9,6 @@ import { AlertController } from '@ionic/angular';
 	styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
-	lists: Lista[] = []
 
 	constructor(public deseosService:DeseosService, 
 		private router : Router, 
